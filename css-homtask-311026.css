@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    width: 1400px;
+    margin: auto;
+}
+.header1{
+    padding-top: 20px;
+    height: 80px;
+}
+.header2{
+    display: flex;
+    gap:200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header3,.header4{
+    color:grey;
+    font-size: 22px;
+}
+.header6{
+    background-color: green;
+    color:white;
+    width: 200px;
+    height: 45px;
+    border: 0px;
+    border-radius: 25px;
+}
+.header5{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.header8{
+    height: 80px;
+}
+.header10{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:grey;
+  
+}
