@@ -1,12 +1,12 @@
 .item{
     border: 2px solid grey;
-    font-size: 50px;
+    font-size: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 1000px;
     background-color: brown;
-    height: 200px;
+    height:00px;
 }
 .container{
     display: grid;
@@ -25,8 +25,11 @@
 
     grid-template: repeat(3, 200px) / repeat(3, 200px);
 }
-.item6{
-    justify-self: end;
-    align-self: end;
-    place-self: start end;
+.item1{
+    justify-self: center;
+    align-self: center;
+}
+.hd{
+    display: flex;
+    flex-direction: column;
 }
