@@ -18,7 +18,7 @@
     padding: 10px;
 }
 .header3,.header4{
-    color:grey;
+    color:rgb(102, 101, 101);
     font-size: 22px;
 }
 .header6{
@@ -41,6 +41,53 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:grey;
-  
+    color:rgb(102, 101, 101)
+}
+.fa-bars{
+    display: none!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    .header2,.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9{
+        display: none!important;
+    }
+     .fa-bars{
+        display: block !important;
+        font-size: 20px;
+        justify-content: end;
+        align-items: end;
+    }
+    .header{
+        width: 100%;
+    }
+    .header10{
+        width: 90%;
+    }
 }
