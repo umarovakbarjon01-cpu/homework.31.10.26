@@ -127,15 +127,32 @@
     background-color: rgb(230, 230, 230);
     padding: 20px;
     border-radius: 5px;
-   
     gap:20px;
     box-shadow: 2px 3px 2px solid black;
 }
 .header25{
     padding-top: 30px;
 }
+.header26{
+    height: 400px;
+    padding-top: 100px;
+}
 
-
+.header28{
+    display: flex;
+    height: 300px;
+     justify-content: space-evenly;
+    padding-top: 40px;
+}
+.head3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid gray;
+}
 
 
 
@@ -194,6 +211,7 @@
         padding-top: -150px;
     }
     .head23{
+        align-items: center;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -202,5 +220,16 @@
     .header21{
         text-align: center;
     }
-    
+     .header28{
+        align-items: center;
+        padding-top: 50px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+     }
+     .header27{
+        padding-top: 530px;
+        text-align: center;
+     }
 }
