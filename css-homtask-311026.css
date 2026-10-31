@@ -180,8 +180,103 @@
     height: 493px;
     margin-top: -170px;
 }
+.header36{
+    margin: auto;
+    width: 1400px;
+    height: 700px;
+}
+.header37{
+    padding: 40px;
+}
+.header38{
+    display: flex;
+    gap: 50px; 
+    align-items: center;
+    justify-content: center;
+}
+.header43{
+    display: flex;
+      gap:50px;
+      align-items: center;
+      justify-content: center;
+}
+.header44{
+    display: flex;
+    gap:50px;
+    justify-content: space-evenly;
+}
+.header45{
+    width: 1400px;
+    height: 700px;
+    margin: auto;
+}
+.header46{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    color:white;
+    background-color: #272727;
+    border-radius: 40px;
+    display: flex;
+    padding: 30px;
+}
+.q1w{
+    color:#2E6F40
+}
+.header47{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
 
-
+.header49{
+    width: 280px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 0px;
+}
+.header50{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: 0px;
+    background-color:#119947;
+    color:white;
+}
+.header53{
+    width: 280px;
+    height: 50px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+    border:0px;
+    display: flex;
+}
+.header51{
+    margin-top: -300px;
+    margin-left: 400px;
+}
+.header58{
+    width: 1400px;
+    height: 380px;
+    background-color: #119947;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aqw1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header61{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px;
+    color:white;
+}
 
 
 
@@ -197,7 +292,9 @@
 
 
 @media (max-width: 500px){
-    
+    .body{
+          overflow-x: hidden;
+    }
     .header2,.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9{
         display: none!important;
     }
@@ -270,6 +367,40 @@
         flex-direction: column;
         padding: 30px;
      }
+     .header36{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     }
+     .header38{
+        display: flex;
+        flex-direction: column;
+     }
+    .header40{
+        width: 100%;
+    }
+    .header44{
+        display: flex;
+        flex-direction: column;
+    }
+    .header51{
+        display: none!important;
+    }
+    .header45{
+        width: 100%;
+        padding-top: 200px;
+    }
+    .header46{
+        width:80%;   
+    }
+   .header58{
+    width: 100%;
+    height: 1800px;
+   }
+   .aqw1{
+    display:flex;
+    flex-direction: column;
+   }
     
 
 }
